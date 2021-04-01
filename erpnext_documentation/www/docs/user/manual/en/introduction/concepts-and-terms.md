@@ -1,30 +1,25 @@
 <!-- add-breadcrumbs -->
 # Concepts and Terms
 
-Before you start implementation, lets get familiar with the terminology that
+Before you start implementing ERPNext, lets get familiar with the terminology that
 is used and some basic concepts in ERPNext.
 
-* * *
+## Basic Concepts
 
-### Basic Concepts
+### Company
 
-#### Company
+This represents the company for which ERPNext is being setup. You can also set up multiple companies in one instance of ERPNext. Please note that if you create multiple companies in one instance, the financial accounting (profit and loss, balance sheet, etc) for each company will be separate, but the customer, supplier, and item records will be shared across all the companies in that instance.
 
-This represents the Company records for which ERPNext is setup. With this same
-setup, you can create multiple Company records, each representing a different
-legal entity. The accounting for each Company will be different, but they will
-share the Customer, Supplier and Item records.
+> Accounting > Reports and Masters > Accounting Masters > Company
 
-> Setup > Company
-
-#### Customer
+### Customer
 
 Represents a customer. A Customer can be an individual or an organization.
 You can create multiple Contacts and Addresses for each Customer.
 
 > Selling > Customer
 
-#### Supplier
+### Supplier
 
 Represents a supplier of goods or services. Your telephone company is a
 Supplier, so is your raw materials Supplier. Again, a Supplier can be an
@@ -32,14 +27,14 @@ individual or an organization and has multiple Contacts and Addresses.
 
 > Buying > Supplier
 
-#### Item
+### Item
 
 A Product, sub-product or Service that is either bought, sold or manufactured
 and is uniquely identified.
 
 > Stock > Item
 
-#### Account
+### Account
 
 An Account is a heading under which financial and business transactions are
 carried on. For example, “Travel Expense” is an account, “Customer Zoe”,
@@ -48,14 +43,14 @@ Suppliers automatically.
 
 > Accounting > Chart of Accounts
 
-#### Address
+### Address
 
 An address represents location details of a Customer or Supplier. These can be
 of different locations such as Head Office, Factory, Warehouse, Shop etc.
 
 > Selling > Address
 
-#### Contact
+### Contact
 
 An individual Contact belongs to a Customer or Supplier or is just an
 independent. A Contact has a name and contact details like email and phone
@@ -63,14 +58,14 @@ number.
 
 > Selling > Contact
 
-#### Communication
+### Communication
 
 A list of all Communication with a Contact or Lead. All emails sent from the
 system are added to the Communication table.
 
 > Support > Communication
 
-#### Price List
+### Price List
 
 A Price List is a place where different rate plans can be stored. It’s a name
 you give to a set of Item Prices stored under a particular List.
