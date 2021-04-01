@@ -3,36 +3,30 @@
 
 There are many ways to get started with ERPNext.
 
-### 1\. See the Demo
+## 1. Check Out the Demo Instance
 
-If you want to check out the user interface and **feel** the application, just
-see the demo at:
+If you want to check out the user interface and **feel** the application head to the demo instance.
 
-  * <https://demo.erpnext.com>
+[Click here to check out the demo instance.](https://demo.erpnext.com)
 
-### 2\. Start a Free Account at ERPNext.com
+## 2. Start a Free Account at ERPNext.com
 
+ERPNext.com is run by [Frappe Technologies Pvt Ltd](https://frappe.io/), the company that publishes ERPNext.
+You can opt erpnext.com for hosting and professional support as a paying client. This way you can support Frappe Technologies to continue to invest in the development of ERPNext.
 
-ERPNext.com is managed by the organization (Frappe) that publishes ERPNext.
-You can start with your own account by [signing up on the
-website](https://erpnext.com).
+[Click here for a 14-day free trial with hosting and support.](https://erpnext.com)
 
-You can also decide to host your application at erpnext.com by buying the
-hosting plans. This way you support the organization that develops and
-improves ERPNext. You also get one-to-one functional (usage) support with the
-hosting plans.
+## 3. Download a Pre-installed Virtual Machine Image
 
-### 3\. Download a Virtual Machine
+ERPNext is also available as a Virtual Image (a fully-loaded operating system with ERPNext installed). You can
+use this on **any** platform including Microsoft Windows. Please note this is suitable to explore ERPNext initially but not to run as a production system for day-to-day operations.
 
-To avoid the trouble of installing an instance, ERPNext is available as a
-Virtual Image (a full loaded operating system with ERPNext installed). You can
-use this on **any** platform including Microsoft Windows.
+[Click here to see instructions on how to use the Virtual Image.](https://erpnext.com/download)
 
-[Click here to see instructions on how to use the Virtual
-Image](https://erpnext.com/download)
+## 4. Install ERPNext on Your Unix/Linux/Mac Machine
 
-### 4\. Install ERPNext on your Unix/Linux/Mac machine
+If you are familiar with installing applications on *nix platforms, you can install ERPNext using Frappe Bench command-line utility.
 
-If you are familiar with installing applications on *nix platforms, read the instructions on how to install using [Frappe Bench](https://github.com/frappe/bench).
+[Click here to read installation instructions](https://github.com/frappe/bench).
 
 {next}
